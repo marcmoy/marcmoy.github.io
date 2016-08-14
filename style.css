@@ -748,3 +748,8 @@ a.button:hover {
 		background: rgba(55, 93, 129, 1);
 	}
 }
+
+img {
+    width: 75%;
+    border-radius: 40%;
+}
