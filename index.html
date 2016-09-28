@@ -11,27 +11,26 @@
 			<div id="header">
 				<div class="top">
 						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
 							<h1 id="title">Marc Moy</h1>
-							<p></p>
+							<p>Software Engineer</p>
 						</div>
 						<nav id="nav">
 							<ul>
-								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-								<li><a href="#projects" id="projects-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Projects</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="hover-slow icon fa-home">Intro</span></a></li>
+								<li><a href="#projects" id="projects-link" class="skel-layers-ignoreHref"><span class="hover-slow icon fa-th">Projects</span></a></li>
+								<li><a href="#skills" id="skills-link" class="skel-layers-ignoreHref"><span class="hover-slow icon fa-code">Skills</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="hover-slow icon fa-street-view">About Me</span></a></li>
+								<li><a href="#resume" id="resume-link" class="skel-layers-ignoreHref"><span class="hover-slow icon fa-file-pdf-o">Resume</span></a></li>
 							</ul>
 						</nav>
 				</div>
 
 				<div class="bottom">
 						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="https://github.com/marcmoy" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://www.linkedin.com/in/marcmoy" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="mailto:moymarc453@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 				</div>
 			</div>
@@ -41,12 +40,14 @@
 						<div class="container">
 							<header>
 								<h2 class="alt">Hi, I'm <strong>Marc Moy</strong></h2>
-								<p>I'm a software engineer and web developer from Daly City, California</p>
+								<p>I'm a software engineer and web developer<br>living in Daly City, California.<br>
+									(Website still under development)
+								</p>
 							</header>
 
-							<footer>
+							<!-- <footer>
 								<a href="#projects" class="button scrolly">Projects</a>
-							</footer>
+							</footer> -->
 
 						</div>
 					</section>
@@ -59,51 +60,63 @@
 								<h2>Projects</h2>
 							</header>
 
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-							fusce hendrerit lacus ridiculus.</p>
+							<p></p>
 
 							<div class="row">
-								<div class="4u 12u$(mobile)">
+								<div class="6u 12u$(mobile)">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+										<a href="http://www.parklender.com" class="image fit project" target="_blank">
+											<div class="overflow hidden">
+												<img class="hover-slow" src="images/parklender.png" alt="" /></a>
+											</div>
 										<header>
-											<h3>Ipsum Feugiat</h3>
+											<h3>ParkLender</h3>
+											<a href="http://www.parklender.com" target="_blank">Live</a> | <a href="http://github.com/marcmoy/parklender" target="_blank">Source</a>
+											<p>
+												ParkLender is a solo-built fullstack web application that enables users to share their parking spaces.
+												The API endpoints are hosted using <strong>Ruby on Rails</strong> and <strong>PostgreSQL</strong>, while
+												the frontend stack is managed through <strong>React</strong> and <strong>Redux</strong>.
+												Search map and autocomplete location features implemented using Google Maps API.
+											</p>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+										<a href="http://www.marcmoy.io/tetris" class="image fit project" target="_blank">
+											<div class="overflow hidden">
+												<img class="hover-slow" src="images/tetris.png" alt="" /></a>
+											</div>
 										<header>
-											<h3>Rhoncus Semper</h3>
+											<h3>Tetris</h3>
+											<a href="http://www.marcmoy.io/tetris" target="_blank">Live</a> | <a href="http://github.com/marcmoy/tetris" target="_blank">Source</a>
+											<p>
+												Remastered version of the classic puzzle game that is playable on both desktop and mobile browsers.
+												Game logic is written in vanilla <strong>Javascript</strong> and rendered using <strong>React</strong> and <strong>Redux</strong>.
+											</p>
 										</header>
 									</article>
 								</div>
-								<div class="4u 12u$(mobile)">
+								<div class="6u 12u$(mobile)">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+										<a href="http://www.chatroomlite.xyz" class="image fit project" target="_blank">
+											<div class="overflow hidden">
+												<img class="hover-slow" src="images/chatroomlite.png" alt="" /></a>
+											</div>
 										<header>
-											<h3>Magna Nullam</h3>
+											<h3>ChatRoomLite</h3>
+											<a href="http://www.chatroomlite.xyz" target="_blank">Live</a> | <a href="http://github.com/marcmoy/chatroomlite" target="_blank">Source</a>
+											<p>
+												ChatRoomLite is a light-weight chatroom application built on a <strong>Node</strong> server integrated with <strong>Socket.IO</strong>.
+												Active users in the chatroom can send each other messages, emojis, and gifs in real time. GIFs provided by the Giphy API.
+											</p>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+										<a href="#" class="image fit project" target="_blank">
+											<div class="overflow hidden">
+												<img class="hover-slow" src="images/pic02.jpg" alt="" /></a>
+											</div>
 										<header>
-											<h3>Natoque Vitae</h3>
-										</header>
-									</article>
-								</div>
-								<div class="4u$ 12u$(mobile)">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-										<header>
-											<h3>Dolor Penatibus</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-										<header>
-											<h3>Orci Convallis</h3>
+											<h3>Rails Lite</h3>
 										</header>
 									</article>
 								</div>
@@ -111,6 +124,34 @@
 
 						</div>
 					</section>
+
+					<!-- Skills -->
+							<section id="skills" class="one dark cover">
+								<div class="container">
+
+									<header>
+										<h2>Skills</h2>
+									</header>
+
+									<p>My skillset includes:</p>
+
+									<div class="row center">
+										<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/100px-Ruby_logo.svg.png" alt="Ruby" class="image fit mini"  title="Ruby" />
+										<img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Ruby_on_Rails.svg/150px-Ruby_on_Rails.svg.png" alt="Ruby on Rails" class="image fit mini"  title="Ruby on Rails" />
+										<img src="http://3.bp.blogspot.com/-PTty3CfTGnA/TpZOEjTQ_WI/AAAAAAAAAeo/KeKt_D5X2xo/s200/js.jpg" alt="JavaScript" class="image fit mini"  title="JavaScript" />
+										<img src="http://daynin.github.io/clojurescript-presentation/img/react-logo.png" alt="React" class="image fit mini"  title="React" />
+									</div>
+									<div class="row center">
+										<img src="http://www.exuberantsolutions.com/course_logo/jquery-icon.png" alt="jQuery" class="image fit mini"  title="jQuery" />
+										<img src="https://raw.githubusercontent.com/DevoKun/chocolatey-templates/master/pgadmin3/pgadmin3-220px.png" alt="PostgreSQL" class="image fit mini" title="PostgreSQL" />
+										<img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git" class="image fit mini" title="Git" />
+										<img src="https://s-media-cache-ak0.pinimg.com/originals/fa/ae/11/faae11a6b87547339411b40ac228d4d7.jpg" alt="CSS" class="image fit mini" title="CSS" />
+									</div>
+									<p/>
+									<p>Ruby, Ruby on Rails, JavaScript, React, Redux, jQuery, PostgreSQL, Git, CSS</p>
+
+								</div>
+							</section>
 
 				<!-- About Me -->
 					<section id="about" class="three">
@@ -120,43 +161,42 @@
 								<h2>About Me</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							<!-- <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a> -->
 
-							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-							ornare iaculis.</p>
+							<p>
+							<strong>Hello, I'm Marc.</strong><br>I have a passion for building things and learning new technologies.
+							I thrive in fast paced work environments and can easily adapt to different teams and workflows.
+							I plan to continue this mindset as I make a career move from civil engineering to software engineering.
+							</p>
 
 						</div>
 					</section>
 
-				<!-- Contact -->
-					<section id="contact" class="four">
+				<!-- Resume -->
+					<section id="resume" class="four">
 						<div class="container">
 
 							<header>
-								<h2>Contact</h2>
+								<h2>Resume</h2>
 							</header>
+							<p>
+								I am currently seeking new opportunities located within the Bay Area.<br>
+								Feel free to call or email me.<br>
+								<a href="tel:650-520-9790">(650) 520-9790</a> | <a href="mailto:moymarc453@gmail.com">moymarc453@gmail.com</a>
+							</p>
 
-							<p>Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
-
-							<form method="post" action="#">
-								<div class="row">
-									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="12u$">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="12u$">
-										<input type="submit" value="Send Message" />
-									</div>
+							<div class="resume">
+								<a href="docs/MarcMoy_Resume.pdf" target="_blank">
+									<img src="docs/MarcMoy_Resume.jpg" class="hover-slow" id="resume" />
+								</a>
+								<div class="overlay">
+									<div class="download">Click to download</div>
 								</div>
-							</form>
+							<div>
+
+							<a href="docs/MarcMoy_Resume.pdf" target="_blank">
+								Click to download
+							</a>
 
 						</div>
 					</section>
@@ -167,7 +207,6 @@
 			<div id="footer">
 					<ul class="copyright">
 							<li>&copy; Marc Moy. All rights reserved.</li>
-							<!-- <li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
 					</ul>
 			</div>
 

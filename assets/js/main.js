@@ -1,10 +1,15 @@
-/*
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 (function($) {
+
+	$("img#resume").hover(
+		function(){
+			$("div.download").stop();
+			$("div.download").animate({ opacity: "1" }, 400);
+		},
+		function(){
+			$("div.download").stop();
+			$("div.download").animate({ opacity: "0" }, 400);
+		}
+	);
 
 	skel.breakpoints({
 		wide: '(min-width: 961px) and (max-width: 1880px)',
