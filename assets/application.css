@@ -1,0 +1,116 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #443b3b; }
+
+header {
+  text-align: right;
+  position: absolute;
+  z-index: 2;
+  width: 100vw; }
+  header ul {
+    padding: 0 10px;
+    margin: auto;
+    float: right; }
+    header ul a {
+      color: inherit;
+      text-decoration: none;
+      cursor: pointer; }
+    header ul a:visited {
+      color: inherit;
+      text-decoration: none;
+      cursor: pointer; }
+    header ul li {
+      float: left;
+      color: #000;
+      cursor: pointer; }
+    header ul li:hover {
+      border-bottom: 2px solid #000; }
+    header ul i.fa {
+      margin: 15px; }
+  header .initials {
+    height: 3em;
+    margin: 15px; }
+
+div.center-content {
+  position: absolute;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj48ZyBmaWxsPSIjREZERkRGIj48Y2lyY2xlIGN4PSIxMCIgY3k9IjEwIiByPSIxIi8+PC9nPjwvc3ZnPg=="); }
+
+div.card {
+  padding: 2em 5em;
+  text-align: center; }
+  div.card span.name {
+    display: block;
+    font-size: 3em; }
+  div.card span {
+    display: block;
+    line-height: 1.2em; }
+  div.card .name {
+    font-size: 4em; }
+  div.card .title {
+    font-size: 1.3em;
+    color: gray; }
+  div.card div.avatar {
+    margin: 1em auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    text-align: center; }
+    div.card div.avatar img {
+      width: 100%; }
+
+/*# sourceMappingURL=application.css.map */
