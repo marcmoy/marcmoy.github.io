@@ -204,6 +204,7 @@ ul.contact-links {
     text-decoration: none;
     cursor: pointer; }
   .dual-col a {
+    color: inherit;
     text-decoration: none; }
     .dual-col a h2 {
       font-weight: 600;
