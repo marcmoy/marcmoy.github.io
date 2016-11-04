@@ -48,10 +48,7 @@ table {
 }
 
 .clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: ' ';
+	content: '';
 	clear: both;
-	height: 0;
+	display: block;
 }
