@@ -45,62 +45,71 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: ' ';
+  clear: both;
+  height: 0; }
+
 body {
   font-family: 'Raleway', sans-serif;
   color: #443b3b; }
 
-header {
-  text-align: right;
-  position: absolute;
-  z-index: 2;
-  width: 100vw; }
-  header ul {
-    padding: 0 10px;
-    margin: auto;
+.links {
+  position: relative;
+  text-align: center;
+  margin: auto;
+  width: 100%; }
+  .links ul {
+    width: 100%;
+    display: flex;
     float: right; }
-    header ul a {
+    .links ul a {
       color: inherit;
       text-decoration: none;
       cursor: pointer; }
-    header ul a:visited {
+    .links ul a:visited {
       color: inherit;
       text-decoration: none;
       cursor: pointer; }
-    header ul li {
-      float: left;
+    .links ul li {
+      float: right;
+      margin: 10px auto;
       color: #000;
       cursor: pointer; }
-    header ul li:hover {
+    .links ul li:hover {
       border-bottom: 2px solid #000; }
-    header ul i.fa {
+    .links ul i.fa {
       margin: 15px; }
-  header .initials {
+  .links .initials {
     height: 3em;
     margin: 15px; }
 
-div.center-content {
-  position: absolute;
-  z-index: 1;
+div.background-image {
+  position: fixed;
+  z-index: -1;
   height: 100vh;
   width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj48ZyBmaWxsPSIjREZERkRGIj48Y2lyY2xlIGN4PSIxMCIgY3k9IjEwIiByPSIxIi8+PC9nPjwvc3ZnPg=="); }
 
 div.card {
-  padding: 2em 5em;
+  position: fixed;
+  width: 30%;
+  left: 1%;
   text-align: center; }
   div.card span.name {
     display: block;
     font-size: 3em; }
   div.card span {
     display: block;
-    line-height: 1.2em; }
+    line-height: 1.4em; }
   div.card .name {
     font-size: 4em; }
   div.card .title {
     font-size: 1.3em;
+    line-height: 2em;
     color: gray; }
   div.card div.avatar {
     margin: 1em auto;
@@ -112,5 +121,46 @@ div.card {
     text-align: center; }
     div.card div.avatar img {
       width: 100%; }
+  div.card p {
+    font-size: 1em;
+    line-height: 1.4em;
+    color: gray; }
+
+.projects-container {
+  height: 80%;
+  position: absolute;
+  right: 10%;
+  width: 25%; }
+
+ul.projects {
+  position: relative;
+  list-style: none;
+  height: 100%;
+  width: 100%;
+  overflow: scroll; }
+  ul.projects li {
+    width: 100%;
+    overflow: hidden;
+    transition: background 1s;
+    text-align: center; }
+    ul.projects li img {
+      display: block; }
+  ul.projects li {
+    margin-top: 5px; }
+  ul.projects li.selected {
+    background-color: #80DEEA; }
+
+ul.projects:after {
+  position: fixed;
+  top: 10%;
+  width: 25%;
+  height: 80%;
+  content: "";
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white);
+  pointer-events: none;
+  /* so the text is still selectable */ }
+
+::-webkit-scrollbar {
+  display: none; }
 
 /*# sourceMappingURL=application.css.map */
