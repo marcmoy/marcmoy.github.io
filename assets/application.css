@@ -269,6 +269,7 @@ ul.projects:after {
   display: none; }
 
 footer {
+  font-size: 1em;
   padding: 1em 5em;
   text-align: center; }
 
@@ -303,7 +304,7 @@ footer {
       width: 100%; }
 
   footer {
-    font-size: 1em;
+    font-size: 1.5em;
     padding: 40px; } }
 
 /*# sourceMappingURL=application.css.map */
